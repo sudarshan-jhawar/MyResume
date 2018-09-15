@@ -6,6 +6,6 @@ export class AppPage {
   }
 
   getParagraphText() {
-    return element(by.css('my-resume-app-root h1')).getText();
+    return element(by.css('mr-app-root h1')).getText();
   }
 }

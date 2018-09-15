@@ -7,9 +7,10 @@
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
-      "prefix": "my-resume-app",
+      "prefix": "mr-app",
       "schematics": {
         "@schematics/angular:component": {
+          "styleext": "scss",
           "inlineStyle": true,
           "spec": false
         },
@@ -46,7 +47,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles/main.scss"
             ],
             "scripts": []
           },
