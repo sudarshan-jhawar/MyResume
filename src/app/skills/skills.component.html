@@ -1,3 +1,14 @@
-<p>
-  skills works!
-</p>
+<div class="skill-wrapper">
+  <div class="card-deck">
+    <div class="card" *ngFor="let skill of skills" >
+      <img class="card-img-top" [src]="skill.imageUrl" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{skill.name}}</h5>
+        <p class="card-text">{{skill.description}}</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>

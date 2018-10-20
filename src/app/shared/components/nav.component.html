@@ -6,17 +6,14 @@
 
   <div class="collapse navbar-collapse" [ngClass]="{'show':!isCollapsed}">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">About me </a>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/about-me" routerLinkActive="active">About me </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Experience</a>
+        <a class="nav-link" class="nav-link" routerLink="/experience" routerLinkActive="active">Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Academics</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">others</a>
+        <a class="nav-link" class="nav-link" routerLink="/skills" routerLinkActive="active">Skills</a>
       </li>
     </ul>
   </div>
